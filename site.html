@@ -172,7 +172,8 @@ if(!document.querySelector('meta[name="viewport"]')){
     .tphase{display:block;padding-left:0;}
     .tdot{display:none;}
     .tphase:not(:last-child)::after{display:none;}
-    .tbody{padding-left:0;padding-top:0;}
+    .tbody{padding-left:0;padding-top:0;padding-bottom:1rem;}
+    .tphase:last-child .tbody{padding-bottom:0;}
     .tbody p{max-width:100%;}
     .what-section .container{padding:0 1rem;}
   }
@@ -362,7 +363,7 @@ if(!document.querySelector('meta[name="viewport"]')){
 </section>
 
 
-<section style="background:var(--navy);padding:96px 2rem;" id="events">
+<section style="background:var(--navy);" id="events">
   <div class="container">
     <p class="slabel">2026 Events</p>
     <h2>Where the Community<br><em>Comes Together.</em></h2>
